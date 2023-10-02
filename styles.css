@@ -1,0 +1,36 @@
+* {
+    font-family: 'Comfortaa', cursive;
+    background-color: #E9D2C0;
+    color: black;
+}
+
+.title {
+    text-align: center;
+    font-size: 5vw;
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.dogbutton {
+    width: 50%;
+    height: 5vw;
+    border: 2px solid black; 
+    border-radius: 10em;
+    font-size: 3vw;
+}
+
+.dogimage {
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+
+.dogdiv {
+    display: flex;
+    justify-content: center;
+}
+
