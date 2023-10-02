@@ -5,7 +5,7 @@ function displayImage(imageUrl) {
 
 
 function loadNewImage() {
-    fetch(`http://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true`)
+    fetch(`https://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true`)
       .then(response => {
         if (!response.ok) {
           throw new Error(`Error Status: ${response.status}`);
