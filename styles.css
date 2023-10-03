@@ -20,7 +20,17 @@
     height: 5vw;
     border: 2px solid black; 
     border-radius: 10em;
-    font-size: 3vw;
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.dogbutton:hover {
+    animation-name: glow;
+    animation-duration: 2s;
+}
+
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px black;}
 }
 
 .dogimage {
